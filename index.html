@@ -1,12 +1,266 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/styles/styles.css" />
+    <title>Tentaciones.Club</title>
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!-- Header -->
+    <section id="header">
+      <div class="maincolor">
+        <header class="d-flex flex-wrap py-3">
+          <a
+            href="#"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto ms-md-5 link-body-emphasis text-decoration-none"
+          >
+            <span class="prata">Tentaciones.Club</span></a
+          >
+          <div class="d-flex justify-content-end col-lg-4 col-sm-12 pe-5">
+            <ul class="nav nav-pills">
+              <li class="nav-item nav-item-custom rounded-5 m-1">
+                <a href="#" class="nav-link nav-link-custom" aria-current="page"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item nav-item-custom rounded-5 m-1">
+                <a href="./public/tienda.html" class="nav-link nav-link-custom"
+                  >Tienda</a
+                >
+              </li>
+              <li class="nav-item nav-item-custom rounded-5 m-1">
+                <a
+                  href="./public/contacto.html"
+                  class="nav-link nav-link-custom"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container my-5">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+              Bienvenidos!
+            </h1>
+            <p class="lead roboto py-2">
+              Gracias por visitar nuestro sitio
+              <span class="prata" , style="color: black"
+                >Tentaciones.Club!</span
+              >
+              Nos esforzamos para ser tu destino donde puedas encontrar todo
+              tipo de productos intimos y comprar desde la privacidad de tu
+              hogar.
+            </p>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+            >
+              <a href="./public/tienda.html">
+                <button
+                  type="button"
+                  class="btn btn-outline-light btn-lg px-4 mt-5 me-md-2 fw-bold nav-item-custom"
+                >
+                  Ver inventorio
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img
+              class="rounded-lg-3"
+              src="./public/media/pexels-karolina-grabowska-4195587.jpg"
+              alt=""
+              width="150%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <div
+      class="card text-white my-5 py-4 maincolor justify-content-center text-center"
+    >
+      <div class="card-body">
+        <p class="text-white m-0 prata" style="font-size: x-large">
+          Tenemos nuevo inventorio! Si estas satisfecho, no se te olvide
+          dejarnos un review!
+        </p>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="container py-5">
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Privacidad</h2>
+              <p class="card-text">
+                Todas tus compras y detalles de ordenes son mantenidas en la mas
+                alta confidencialidad.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                class="btn btn-outline-light btn-sm nav-item-custom"
+                href="./public/privacidad.html"
+                >Nuestros Terminos</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Receptividad</h2>
+              <p class="card-text">
+                Si tienes alguna pregunta o comentario, te responderemos
+                rapidamente.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                class="btn btn-outline-light btn-sm nav-item-custom"
+                href="./public/preguntas.html"
+                >Preguntas Comunes</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Garantia</h2>
+              <p class="card-text">
+                Satisfaccion es nuestra prioridad. Mira nuestra politica de
+                garantia y terminos.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                class="btn btn-outline-light btn-sm nav-item-custom"
+                href="./public/devoluciones.html"
+                >Nuestra Promesa</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="maincolor">
+        <div
+          class="row row-cols-1 row-cols-sm-1 row-cols-md-5 pt-5 px-5 text-start"
+        >
+          <div class="col mb-3 nav-link-custom">
+            <p>© 2023 Tentaciones.Club</p>
+            <p>Reservados todos los derechos.</p>
+          </div>
+
+          <div class="col mb-3"></div>
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3 nav-link-custom text-end pe-5">
+            <h5>Navegacion del sitio</h5>
+            <hr />
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link nav-link-custom p-0">Inicio</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="./public/tienda.html"
+                  class="nav-link nav-link-custom p-0"
+                  >Tienda</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="./public/contacto.html"
+                  class="nav-link nav-link-custom p-0"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3 nav-link-custom text-end pe-5">
+            <h5>Servicio al cliente</h5>
+            <hr />
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="./public/devoluciones.html"
+                  class="nav-link p-0 nav-link-custom"
+                  >Politica de devoluciones</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="./public/retracto.html"
+                  class="nav-link p-0 nav-link-custom"
+                  >Derecho de retracto</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="./public/privacidad.html"
+                  class="nav-link p-0 nav-link-custom"
+                  >Politica de privacidad</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="./public/preguntas.html"
+                  class="nav-link p-0 nav-link-custom"
+                  >Preguntas frequentes</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap   -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Javascript -->
+    <script src="./index.js" charset="utf-8"></script>
   </body>
 </html>
