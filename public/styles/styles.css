@@ -49,6 +49,58 @@ ul.no-bullets {
     background-size: cover;
 }  
 
+.heroimage2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)) , url("../media/pexels-nubia-navarro-\(nubikini\)-1517361.jpg");
+    height: 50%;
+    background-size: cover;
+}  
+
+.heroimage3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)) , url("../media/pexels-monstera-production-5874738\(wide\).png");
+    height: 50%;
+    background-size: cover;
+}  
+
+
+.heroimage4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)) , url("../media/pexels-cottonbro-studio-9376115_wide.png");
+    height: 50%;
+    background-size: cover;
+}  
+
+.heroimage5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)) , url("../media/pexels-magda-ehlers-985266.jpg");
+    height: 50%;
+    background-size: cover;
+}  
+
+.heroimage6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)) , url("../media/pexels-arunodhai-v-939129.jpg");
+    height: 50%;
+    background-size: cover;
+}  
+
+
+
+
+
 .translucent{
-  background-color: hsl(0, 0%, 100%, 0.3);
+  background-color: hsl(0, 0%, 100%, 0.4);
 }
+
+footer {
+    /* flex: 0 0 auto; */
+    /* display: flex; */
+    /* color: #ccc; */
+    /* margin: 1em; */
+    /* padding: 1em; */
+    /* width: 100%; */
+    /* border-top: 1px solid blue; */
+    /* justify-content: center; */
+  }
+  
