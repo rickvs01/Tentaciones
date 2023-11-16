@@ -1,64 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap" rel="stylesheet" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Tentaciones.Club</title>
-  </head>
+</head>
 
-  <body>
-    <!-- Header -->
+<!-- Header -->
+
+<body>
     <section id="header">
-      <div class="maincolor">
-        <header class="d-flex flex-wrap py-3">
-          <a
-            href="../index.html"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto ms-md-5 link-body-emphasis text-decoration-none"
-          >
-            <span class="prata">Tentaciones.Club</span></a
-          >
-          <div class="d-flex justify-content-end col-lg-4 col-sm-12 pe-5">
-            <ul class="nav nav-pills">
-              <li class="nav-item nav-item-custom rounded-5 m-1">
-                <a
-                  href="../index.html"
-                  class="nav-link nav-link-custom"
-                  aria-current="page"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item nav-item-custom rounded-5 m-1">
-                <a href="./tienda.html" class="nav-link nav-link-custom"
-                  >Tienda</a
-                >
-              </li>
-              <li class="nav-item nav-item-custom rounded-5 m-1">
-                <a href="./contacto.html" class="nav-link nav-link-custom"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
-          </div>
-        </header>
-      </div>
+        <nav class="maincolor">
+            <div class="d-flex flex-wrap py-3 justify-content-center ">
+                <div class="d-flex col-xl-6 justify-content-center px-4">
+                    <ul class="nav">
+                        <li class="nav-item"><span class="prata">TENTACIONES.CLUB</span></a></li>
+                    </ul>
+                </div>
+                <div class="d-flex  col-xl-6 justify-content-center align-items-center roboto">
+                    <ul class="nav flex-no-wrap">
+                        <li class="nav-item nav-item-custom rounded-5 mx-1">
+                            <a href="../index.html" class="nav-link nav-link-custom" aria-current="page">Inicio</a>
+                        </li>
+                        <li class="nav-item nav-item-custom rounded-5 mx-1">
+                            <a href="./tienda.html" class="nav-link nav-link-custom">Tienda</a>
+                        </li>
+                        <li class="nav-item nav-item-custom rounded-5 mx-1">
+                            <a href="./contacto.html" class="nav-link nav-link-custom">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </section>
 
     <!-- Devoluciones -->
@@ -72,7 +57,8 @@
                             Estimado Cliente:</span></p>
                     <p>Toda mercadería adquirida en Tentaciones.Club goza de garantía limitada,
                         y si no satisface sus expectativas está sujeta a cambio o devolución
-                        durante los primeros <span style="font-weight: bold;">15 días</span> a partir de la fecha de compra,
+                        durante los primeros <span style="font-weight: bold;">15 días</span> a partir de la fecha de
+                        compra,
                         siempre que no haya sido utilizado de ninguna manera y tenga sus empaques originales.</p>
 
                     <p>A partir de los 15 días, la mercadería pueda contar con la garantía emitida por el proveedor
@@ -133,82 +119,65 @@
 
 
 
-     <!-- Footer -->
-     <footer>
+    <!-- Footer -->
+    <footer>
         <div class="maincolor">
-          <div
-            class="row row-cols-1 row-cols-sm-1 row-cols-md-5 pt-5 px-5  text-start"
-          >
-            <div class="col mb-3 nav-link-custom">
-              <p class="">© 2023 Tentaciones.Club</p>
-              <p class="">Reservados todos los derechos.</p>
+            <div class="container">
+                <div class="row flex-wrap-reverse row-cols-1 row-cols-sm-1 row-cols-md-5 py-4 px-5 text-center">
+                    <div class="col mb-3 nav-link-custom">
+                        <p>© 2023 Tentaciones.Club</p>
+                        <hr />
+                        <p>Reservados todos los derechos.</p>
+                    </div>
+                    <div class="col mb-3"></div>
+                    <div class="col mb-3"></div>
+                    <div class="col mb-3 nav-link-custom text-center pe-5">
+                        <h5>Navegacion</h5>
+                        <hr />
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="../index.html" class="nav-link nav-link-custom p-0">Inicio</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="./tienda.html" class="nav-link nav-link-custom p-0">Tienda</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="./contacto.html" class="nav-link nav-link-custom p-0">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col mb-3 nav-link-custom text-center pe-5">
+                        <h5>Servicio al cliente</h5>
+                        <hr />
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="./devoluciones.html" class="nav-link p-0 nav-link-custom">Politica de
+                                    devoluciones</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="./retracto.html" class="nav-link p-0 nav-link-custom">Derecho de retracto</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="./privacidad.html" class="nav-link p-0 nav-link-custom">Politica de
+                                    privacidad</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="./preguntas.html" class="nav-link p-0 nav-link-custom">Preguntas frequentes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-  
-            <div class="col mb-3"></div>
-            <div class="col mb-3"></div>
-  
-            <div class="col mb-3 nav-link-custom text-end">
-              <h5>Navegacion del sitio</h5>
-              <hr />
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="../index.html" class="nav-link nav-link-custom p-0"
-                    >Inicio</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="./tienda.html" class="nav-link nav-link-custom p-0"
-                    >Tienda</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="./contacto.html" class="nav-link nav-link-custom p-0"
-                    >Contacto</a
-                  >
-                </li>
-              </ul>
-            </div>
-  
-            <div class="col mb-3 nav-link-custom text-end pe-5">
-              <h5>Servico al cliente</h5>
-              <hr />
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a
-                    href="./devoluciones.html"
-                    class="nav-link p-0 nav-link-custom"
-                    >Politica de devoluciones</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="./retracto.html" class="nav-link p-0 nav-link-custom"
-                    >Derecho de retracto</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="./privacidad.html" class="nav-link p-0 nav-link-custom"
-                    >Politica de privacidad</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="./preguntas.html" class="nav-link p-0 nav-link-custom"
-                    >Preguntas Frequentes</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </footer>
-  
-      <!-- Bootstrap   -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    </footer>
+
+    <!-- Bootstrap   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
-      ></script>
-      <!-- Javascript -->
-      <script src="../index.js" charset="utf-8"></script>
-    </body>
-  </html>
-  
+        crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./index.js" charset="utf-8"></script>
+</body>
+
+</html>
